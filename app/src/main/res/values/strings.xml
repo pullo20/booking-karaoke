@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">E-booking-karaoke</string>
+    <string name="title_activity_navigation_bottom">NavigationBottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cara1">Pilih Room Yang Diinginkan. Terdapat 3 Pilihan Tipe Room Yaitu Small, Medium Large</string>
+    <string name="cara2">Selesaikan Pembayaran Dengan Cara Transfer Ke Bank Yang Disediakan</string>
+    <string name="cara3">Konfirmasi Pembayaran, Dengan Cara Menunjukkan Bukti Pembayaraan</string>
+    <string name="ket_pembayaran">Silahkan Transfer Melalui Bank Dibawah Ini :</string>
+
+    <string-array name="type_room">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="no_small">
+        <item>S100</item>
+        <item>S101</item>
+        <item>S102</item>
+        <item>S103</item>
+        <item>S104</item>
+    </string-array>
+    <string-array name="no_medium">
+        <item>M100</item>
+        <item>M101</item>
+        <item>M102</item>
+        <item>M103</item>
+        <item>M104</item>
+    </string-array>
+    <string-array name="no_large">
+        <item>L100</item>
+        <item>L101</item>
+        <item>L102</item>
+        <item>L103</item>
+        <item>L104</item>
+    </string-array>
+    <string-array name="durasi">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

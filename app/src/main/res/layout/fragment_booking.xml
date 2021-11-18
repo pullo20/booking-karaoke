@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:paddingBottom="50dp"
+    tools:context=".Fragment.BookingFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Booking Room"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="50dp"/>
+            <View
+                android:layout_marginTop="-7dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="30dp"
+                android:padding="30dp"
+                android:layout_gravity="center"
+                android:background="@color/white">
+                    <EditText
+                        android:inputType="text"
+                        android:id="@+id/BRnama"
+                        android:hint="Nama Pemesan"
+                        android:paddingLeft="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/bg_edit_text"/>
+
+                    <EditText
+                        android:id="@+id/BRPonsel"
+                        android:inputType="phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/bg_edit_text"
+                        android:gravity="center_vertical"
+                        android:hint="No. Telepon"
+                        android:paddingLeft="15dp" />
+
+                    <TextView
+                        android:id="@+id/Wmulai"
+                        android:layout_marginTop="5dp"
+                        android:hint="waktu mulai"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:textSize="17dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/bg_edit_text"/>
+
+                    <Spinner
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/typeroom"
+                        android:entries="@array/type_room"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        />
+                    <Spinner
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/noroom"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+                    <Spinner
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/durasi"
+                        android:entries="@array/durasi"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:text="Jam"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:textSize="17dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"/>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:text="Harga"
+                    android:id="@+id/Bharga"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:textSize="17dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
+                    <Button
+                        android:id="@+id/btn_booking"
+                        android:layout_marginHorizontal="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_gradient_btn"
+                        android:text="Booking"
+                        android:textColor="@color/white"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

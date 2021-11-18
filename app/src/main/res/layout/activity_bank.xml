@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    android:layout_height="match_parent"
+    tools:context=".BankActivity">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="PEMBAYARANNN"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:text="@string/ket_pembayaran"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="35dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Nama Rekening     : PT. xxxxxx"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="35dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Nomor Rekening    : 098098xxxxxxx"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="35dp"
+        android:textSize="20dp"
+        android:id="@+id/namaBank"
+        android:textColor="@color/black"
+        android:text="Nama Bank             : Bxx"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="35dp"
+        android:textSize="20dp"
+        android:id="@+id/ket"
+        android:text="Ket: Batas Waktu Pembayaran 2jam  "/>
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gradient_btn"
+        android:text="ok"
+        android:textColor="@color/white"/>
+</LinearLayout>
